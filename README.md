@@ -50,15 +50,7 @@
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/main/install.sh)
-
-##🚀 روش اجرا
-
-```bash
-bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/main/install.sh)
-## 🚀 روش اجرا
 ```
-
-
 ============================================================
 🚀 X-UI to Marzban Migration Script
 ============================================================
