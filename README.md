@@ -53,9 +53,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 ## 🖥️ نمونه اجرا
 
 ```text
-<div align="right">
-🚀 X-UI to Marzban Migration Script
-انتقال کاربران با حجم باقیمانده و تاریخ انقضا
+🚀
+انتقال کاربران با حجم باقیمانده و تاریخ انقضا🚀
+
 
 ✅ دیتابیس پیدا شد: x-ui.db
 
