@@ -127,7 +127,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 
 ### 💎 TON Wallet
 ```bash
-`UQA1qH3125AdKwyksxBmcqYVcB4z-WZZwbYPxlyLJWOjKgGH`
+UQA1qH3125AdKwyksxBmcqYVcB4z-WZZwbYPxlyLJWOjKgGH
 ```
 ⭐ Star دادن به پروژه نیز بهترین حمایت رایگان شماست.
 
