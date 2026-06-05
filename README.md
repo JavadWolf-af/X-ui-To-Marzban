@@ -54,15 +54,21 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 <div align="center">
 🚀 X-UI to Marzban Migration Script</div>
 
+
 ✅ دیتابیس پیدا شد: x-ui.db
+
 
 🔐 تنظیمات پنل مرزبان
 
+
 آدرس مرزبان: panel.babygirls.mom
+
 پورت مرزبان: 2083
 استفاده از HTTPS: y
 نام کاربری: Javad
 رمز عبور: ********
+
+
 
 ✅ اتصال به مرزبان موفقیت‌آمیز بود
 
