@@ -50,7 +50,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 
 ## 🖥️ نمونه اجرا
 
-```text
+
 🚀 X-UI to Marzban Migration Script
 
 ✅ دیتابیس پیدا شد: x-ui.db
@@ -88,9 +88,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 ❌ انتقال ناموفق: 8
 
 🎉 انتقال کاربران با موفقیت انجام شد.
-```
-
----
+``
 
 ## 📈 گزارش انتقال
 
