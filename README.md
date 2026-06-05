@@ -53,6 +53,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 ## 🖥️ نمونه اجرا
 
 ```text
+<div align="right">
 🚀 X-UI to Marzban Migration Script
 انتقال کاربران با حجم باقیمانده و تاریخ انقضا
 
@@ -101,6 +102,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 ❌ انتقال ناموفق: 8
 
 🎉 انتقال کاربران با موفقیت انجام شد.
+</div>
+
 ```
 
 ---
@@ -137,9 +140,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 اگر این پروژه برای شما مفید بوده است، می‌توانید با ارسال TON از توسعه آن حمایت کنید.
 
 ### 💎 TON Wallet
+<div align="center">
 ```bash
 UQA1qH3125AdKwyksxBmcqYVcB4z-WZZwbYPxlyLJWOjKgGH
 ```
+</div>
 ⭐ Star دادن به پروژه نیز بهترین حمایت رایگان شماست.
 
 </div>
