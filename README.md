@@ -179,5 +179,5 @@ This project is licensed under the MIT License.
 ---
 
 <p align="center">
-Made with ❤️ for server admins
+Made with ❤️ JavadWolf
 </p>
