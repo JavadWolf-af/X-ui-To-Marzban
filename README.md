@@ -53,7 +53,7 @@
 bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/main/install.sh)
 
 ```
-═════🚀 X-UI to Marzban Migration Script════
+<br>═════🚀 X-UI to Marzban Migration Script════</br>
 ✅ دیتابیس پیدا شد: x-ui.db
 
 ═══
