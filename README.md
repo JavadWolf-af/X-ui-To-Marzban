@@ -1,100 +1,164 @@
-# 🔄 X-UI to Marzban Migration Script
+<p align="center">
 
-### <div dir="rtl">انتقال خودکار کاربران از X-UI به Marzban</div>
+# 🔄 X-UI → Marzban Migration Tool
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Python](https://img.shields.io/badge/python-3.6+-yellow.svg)
+### 🚀 انتقال هوشمند و یک‌کلیک کاربران از X-UI به Marzban با حفظ کامل حجم و تاریخ انقضا
+
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/version-2.0.0-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/python-3.6+-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge">
+</p>
 
 ---
 
-## ✨ Features / ویژگی‌ها
+## ⚡ معرفی پروژه
 
-<div dir="ltr">
+این ابزار یک اسکریپت حرفه‌ای برای **مهاجرت کامل کاربران X-UI به Marzban** است که بدون نیاز به تنظیمات پیچیده، تمام کاربران را همراه با:
 
-* 🚀 Fast one-command execution
-* 🤖 Automatic X-UI database detection
-* 📊 Accurate remaining traffic calculation
-* 🔐 Full VLESS support
-* 🛡️ Secure migration with validation
-* 📝 Detailed success/failure reports
+- 📊 حجم مصرفی و باقی‌مانده
+- 📅 تاریخ انقضا
+- 🔐 UUID و تنظیمات VLESS
+- 🛡️ وضعیت کاربر
+
+به صورت خودکار منتقل می‌کند.
+
+---
+
+## ✨ ویژگی‌ها
+
+<div align="right">
+
+- 🚀 اجرای کاملاً خودکار تنها با یک دستور
+- 📡 تشخیص خودکار دیتابیس X-UI
+- 📊 محاسبه دقیق حجم مصرفی و باقی‌مانده
+- 📅 انتقال کامل تاریخ انقضا کاربران
+- 🔄 تمدید خودکار کاربران منقضی‌شده (۱ روز)
+- 🔐 پشتیبانی کامل از VLESS (XTLS Vision)
+- 🧠 جلوگیری از ساخت کاربران تکراری
+- 📈 گزارش کامل موفق/ناموفق
 
 </div>
 
 ---
 
-## 🎯 <div dir="rtl">منطق انتقال کاربران</div>
+## ⚙️ منطق انتقال کاربران
 
-| وضعیت کاربر | حجم باقی‌مانده | نتیجه انتقال |
-|--------------|----------------|---------------|
-| ✅ فعال و نامحدود | ∞ | نامحدود |
-| ✅ فعال با حجم باقی‌مانده | بیشتر از 0 | همان حجم باقی‌مانده |
-| ✅ فعال با حجم تمام‌شده | 0 GB | 1 GB |
-| ❌ غیرفعال | - | منتقل نمی‌شود |
-
----
-
-## 📋 <div dir="rtl">پیش‌نیازها</div>
-
-<div dir="rtl">
-
-* Ubuntu / Debian
-* Root access
-* X-UI installed
-* Marzban installed
-* Internet connection
-
-</div>
+| وضعیت کاربر | رفتار سیستم |
+|-------------|-------------|
+| ♾️ نامحدود | انتقال بدون محدودیت |
+| 📦 دارای حجم | حفظ کامل حجم باقی‌مانده |
+| 🔥 حجم تمام‌شده | اختصاص 1GB |
+| ❌ غیرفعال | حذف از انتقال |
 
 ---
 
-## 🚀 Installation
+## 📅 مدیریت تاریخ انقضا
+
+| وضعیت | رفتار |
+|--------|-------|
+| تاریخ معتبر | انتقال مستقیم |
+| تاریخ گذشته | تمدید خودکار 1 روز |
+| بدون تاریخ | بدون محدودیت |
+
+---
+
+## 🚀 نصب و اجرا (One Click)
+
+<p align="center">
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/main/install.sh)
 ```
 
+</p>
+
 ---
 
-## 🖥️ <div dir="rtl">نمونه اجرا</div>
+## 🖥️ نمونه اجرا
 
 ```text
-🚀 X-UI to Marzban Migration Script
+🚀 X-UI → Marzban Migration Tool
 
-✅ دیتابیس پیدا شد: x-ui.db
+📡 استخراج دیتابیس...
+   ✅ کاربران: 156
+   📅 دارای انقضا: 89
 
-🔐 تنظیمات پنل مرزبان
-...
+📊 وضعیت:
+   ♾️ نامحدود: 20
+   📦 دارای حجم: 110
+   🔥 تمام‌شده: 26
+
+🚀 انتقال...
+
+[1/156] Amin1 | 2.50GB | 2026-06-21 ✅
+[2/156] Javad | Unlimited | No Expiry ✅
+
+📊 نتیجه نهایی:
+   ✅ موفق: 148
+   ❌ ناموفق: 8
+
+🎉 Migration Completed Successfully
 ```
 
 ---
 
-## 📈 <div dir="rtl">گزارش انتقال</div>
+## 🛠️ پیش‌نیازها
 
-<div dir="rtl">
+- Ubuntu / Debian
+- Python 3.6+
+- دسترسی Root
+- نصب بودن X-UI (سنایی)
+- نصب بودن Marzban
 
-- تعداد کاربران منتقل‌شده
+---
+
+## 📦 نصب وابستگی‌ها
+
+```bash
+pip install requests urllib3
+```
+
+---
+
+## 🔐 مراحل اجرا
+
+1. استخراج کاربران از X-UI
+2. اتصال به Marzban API
+3. دریافت اینباندهای VLESS
+4. انتقال کاربران با حفظ اطلاعات
+5. گزارش نهایی
+
+---
+
+## 📊 گزارش نهایی
+
+در پایان اجرا:
+
+- تعداد کاربران موفق
 - تعداد کاربران ناموفق
-- حجم باقی‌مانده
-- خطاها
-
-</div>
+- وضعیت حجم و انقضا
+- خطاهای احتمالی
 
 ---
 
-## 🛠️ Troubleshooting / عیب‌یابی
+## ⚠️ نکات مهم
 
-| Problem (EN) | راه‌حل (FA) |
-|--------------|-------------|
-| DB not found | فایل x-ui.db را قرار دهید |
-| Connection error | تنظیمات پنل را بررسی کنید |
-| VLESS missing | اینباند بسازید |
+> قبل از اجرا از دیتابیس بکاپ بگیرید
+
+- اجرای اسکریپت با دسترسی root
+- عدم تغییر پنل‌ها هنگام انتقال
+- بررسی صحت API مرزبان
 
 ---
 
-## ❤️ Support
+## ❤️ حمایت از پروژه
 
-<div align="center">
+اگر این پروژه برای شما مفید بود:
+
+<p align="center">
 
 ### 💎 TON Wallet
 
@@ -102,6 +166,18 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 UQA1qH3125AdKwyksxBmcqYVcB4z-WZZwbYPxlyLJWOjKgGH
 ```
 
-⭐ Star دادن به پروژه بهترین حمایت است
+⭐ Star دادن به پروژه بهترین حمایت رایگان است
 
-</div>
+</p>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+Made with ❤️ for server admins
+</p>
