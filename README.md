@@ -52,8 +52,6 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 
 ## 🖥️ نمونه اجرا
 
-```text
-🚀
 انتقال کاربران با حجم باقیمانده و تاریخ انقضا🚀
 
 
@@ -104,7 +102,6 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 🎉 انتقال کاربران با موفقیت انجام شد.
 </div>
 
-```
 
 ---
 
