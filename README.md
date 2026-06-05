@@ -1,4 +1,58 @@
+<div align="center">
+
+# 🔄 X-UI to Marzban Migration Script
+
+### انتقال خودکار و یک‌کلیک کاربران از X-UI به مرزبان
+
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/JavadWolf-af/X-ui-To-Marzban)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.6+-yellow.svg)](https://www.python.org/)
+
+</div>
+
+---
+
+## ✨ ویژگی‌های کلیدی
+
+| ویژگی | توضیح |
+|-------|-------|
+| 🚀 **یک خط فرمان** | بدون نیاز به نصب یا تنظیمات پیچیده |
+| 🤖 **کاملاً خودکار** | تشخیص خودکار دیتابیس و کاربران |
+| 📊 **محاسبه دقیق حجم باقیمانده** | حفظ ترافیک مصرفی کاربران |
+| 🔐 **پشتیبانی از VLESS** | تنظیمات پیشرفته برای اتصال بهینه |
+| 🛡️ **امن و قابل اعتماد** | با قابلیت تأیید دو مرحله‌ای |
+| 📝 **گزارش کامل** | نمایش جزئیات موفق و ناموفق |
+
+---
+
+## 🎯 چه کاربرانی منتقل می‌شوند؟
+
+| وضعیت کاربر | حجم باقیمانده | حجم انتقالی |
+|------------|--------------|-------------|
+| ✅ فعال و نامحدود | ∞ | نامحدود |
+| ✅ فعال با حجم باقیمانده | 1.2 GB | 1.2 GB |
+| ✅ فعال با حجم تمام شده | 0 GB | 1 GB |
+| ❌ غیرفعال | - | منتقل نمی‌شود |
+
+---
+
+## 📋 پیش‌نیازها
+
+> ⚠️ **نیازی به نصب دستی نیست!** اسکریپت خودکار همه چیز را نصب می‌کند.
+
+- سرور Ubuntu/Debian با دسترسی روت
+- پنل X-UI (نسخه سنایی) نصب و فعال
+- پنل Marzban نصب و فعال
+- اتصال به اینترنت
+
+---
+
 ## 🚀 روش اجرا
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/main/install.sh)
+
+##🚀 روش اجرا
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/main/install.sh)
