@@ -8,7 +8,6 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.6+-yellow.svg)](https://www.python.org/)
 
-</div>
 
 ---
 
@@ -22,7 +21,7 @@
 | 🔐 **پشتیبانی از VLESS** | تنظیمات پیشرفته برای اتصال بهینه |
 | 🛡️ **امن و قابل اعتماد** | با قابلیت تأیید دو مرحله‌ای |
 | 📝 **گزارش کامل** | نمایش جزئیات موفق و ناموفق |
-
+</div>
 ---
 
 ## 🎯 چه کاربرانی منتقل می‌شوند؟
