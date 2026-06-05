@@ -126,9 +126,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 اگر این پروژه برای شما مفید بوده است، می‌توانید با ارسال TON از توسعه آن حمایت کنید.
 
 ### 💎 TON Wallet
-
+```bash
 `UQA1qH3125AdKwyksxBmcqYVcB4z-WZZwbYPxlyLJWOjKgGH`
-
+```
 ⭐ Star دادن به پروژه نیز بهترین حمایت رایگان شماست.
 
 </div>
