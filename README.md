@@ -117,8 +117,18 @@ bash <(curl -Ls https://raw.githubusercontent.com/JavadWolf-af/X-ui-To-Marzban/m
 
 ## 📄 لایسنس
 
-این پروژه تحت لایسنس MIT منتشر شده است.
-
 ---
 
-⭐ اگر این پروژه برای شما مفید بود، فراموش نکنید که به آن Star بدهید.
+<div align="center">
+
+## ❤️ Support This Project
+
+اگر این پروژه برای شما مفید بوده است، می‌توانید با ارسال TON از توسعه آن حمایت کنید.
+
+### 💎 TON Wallet
+
+`UQA1qH3125AdKwyksxBmcqYVcB4z-WZZwbYPxlyLJWOjKgGH`
+
+⭐ Star دادن به پروژه نیز بهترین حمایت رایگان شماست.
+
+</div>
